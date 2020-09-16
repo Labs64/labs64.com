@@ -1,0 +1,50 @@
+<nav class="navbar navbar-default navbar-fixed-top NL_navbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed NL_mobile_menu" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div itemscope itemtype="https://schema.org/WebSite">
+                <a itemprop="url" class="navbar-brand NL_logo" href="{{ site.url }}">
+                    <img alt="{{ site.company }}"
+                         src="{{ '/img/labs64-avatar-30x30.png' | prepend: site.baseurl | prepend: site.url }}"/>
+                    <span itemprop="name">{{ site.company }}</span>
+                    <meta itemprop="description" content="{{ site.description }}"/>
+                </a>
+                <a href="{{ site.url }}" class="NL_by" target="_blank">{{ site.slogan }}</a>
+            </div>
+            <div class="NL_topnav_sticker">
+                <a href="{{ site.topnav_sticker_url }}" onclick="{{ site.topnav_sticker_onclick }}" target="_blank">
+                    <img alt="{{ site.topnav_sticker_text }}"
+                         src="{{ site.topnav_sticker_image | prepend: site.baseurl | prepend: site.url }}"/>
+                </a>
+            </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right NL_main_menu">
+                {% for page in site.data.navigation %}
+                {% if page.title %}
+                {% if page.url contains 'http' %}
+                {% assign link = page.url %}
+                {% else %}
+                {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
+                {% endif %}
+                <li>
+                    <a class="page-link {{ page.class }}" href="{{ link }}">
+                        {% if page.icon %}
+                        <i class="fa {{ page.icon }}"></i>
+                        {% endif %}
+                        {{ page.title }}
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>

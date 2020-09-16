@@ -1,0 +1,16 @@
+# Excluded images
+
+- id: netlicensing-promo-00
+  source: /img/netlicensing-promo-00.png
+  exclude: true
+
+# Images attribution
+
+- id: how-to-select-licensing-model-infographic-netlicensing-preview
+  source: /resources/how-to-select-licensing-model-infographic-netlicensing-preview.png
+  title: "Infographic: How To Select Licensing Model"
+  caption: "NetLicensing Infographic - How To Select Licensing Model (preview)"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://labs64.com

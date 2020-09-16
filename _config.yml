@@ -1,0 +1,77 @@
+# Site settings
+title: Labs64 – Innovations Delivered
+slogan: Innovations Delivered
+email: info@labs64.com
+description: Labs64 is one of the first companies worldwide with a cloud-based solution that can be individually configured, delivering Licensing as a Service.
+keywords: labs64,netlicensing,guidechimp,software license,licensing model,membership,license management,Licensing-as-a-Service
+copyright: Labs64 GmbH
+company: Labs64
+
+url: "https://www.labs64.com"
+baseurl: ""
+
+dns_prefetch:
+ - //netlicensing.io
+ - //go.netlicensing.io
+ - //ui.netlicensing.io
+ - //www.labs64.de
+ - //www.labs64.com
+ - //io.labs64.com
+ - //l64.cc
+
+# Styling
+stage_banner_image: "../img/netlicensing-stage-banner-01.png"
+
+# TopNav sticker
+topnav_sticker_text: "We Are Hiring!"
+topnav_sticker_url: "/career/"
+topnav_sticker_image: "/img/labs64-hiring.png"
+topnav_sticker_onclick: ""
+
+# SEO
+google_analytics_tracking_id: "UA-32654174-1"
+yandex_metrika_tracking_id: "61860391"
+
+# Build settings
+markdown: kramdown
+highlight: rouge
+permalink: /blog/:year/:month/:day/:title/
+
+# Sass
+sass:
+  sass_dir: _scss
+  style: :compressed
+
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  profile: false
+  ignore:
+    envs: []
+
+# Exclude these files from production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - .gitignore
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      show_meta: true
+      author: "Labs64"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      show_meta: true
+      author: "Labs64"

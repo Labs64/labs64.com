@@ -1,0 +1,24 @@
+{% assign image = nil %}
+
+{% for data_image in site.data.images %}
+  {% if data_image.source == include.image %}
+    {% assign image = data_image %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if image %}
+  {% if image.publisher == 'Fotolia' %}
+    {% capture image_credit %}&copy; {{ image.author }} - Fotolia.com{% endcapture %}
+  {% elsif image.publisher == 'Flickr' %}
+    {% capture image_credit %}&copy; {{ image.author }} - Flickr.com{% endcapture %}
+  {% elsif image.publisher == 'iStockphoto' %}
+    {% capture image_credit %}&copy;iStockphoto.com/{{ image.author }}{% endcapture %}
+  {% elsif image.publisher == 'Unsplash' %}
+    {% capture image_credit %}&copy; {{ image.author }} - unsplash.com{% endcapture %}
+  {% else %}
+    {% capture image_credit %}{{ image.author }}{% endcapture %}
+  {% endif %}
+
+  Image Credits: {{ image_credit }}
+{% endif %}
