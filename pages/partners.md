@@ -52,7 +52,7 @@ tags:
     <p class="col-md-8 col-md-offset-2">Take advantage of partnership opportunities variety for dynamic organizations like yours:</p>
     <div class="col-md-6">
         <div class="docu-card">
-            <img class="image col-md-4" src="{{ '/img/how_it_works.png' | prepend: site.baseurl | prepend: site.url }}" alt="Technology Partners">
+            <img class="image col-md-4" src="{{ '/img/api.png' | prepend: site.baseurl | prepend: site.url }}" alt="Technology Partners">
             <div class="content col-md-8">
                 <h3 class="title">Technology Partners</h3>
                 <p>Strengthen your products and technologies by integrating with Labs64 NetLicensing.</p>
@@ -61,7 +61,7 @@ tags:
     </div>
     <div class="col-md-6">
         <div class="docu-card">
-            <img class="image col-md-4" src="{{ '/img/getting_started.png' | prepend: site.baseurl | prepend: site.url }}" alt="Service Partners">
+            <img class="image col-md-4" src="{{ '/img/how_it_works.png' | prepend: site.baseurl | prepend: site.url }}" alt="Service Partners">
             <div class="content col-md-8">
                 <h3 class="title">Service Partners</h3>
                 <p>Offer solutions and services based on Labs64 NetLicensing technology to your clients.</p>
@@ -70,7 +70,7 @@ tags:
     </div>
     <div class="col-md-6">
         <div class="docu-card">
-            <img class="image col-md-4" src="{{ '/img/api.png' | prepend: site.baseurl | prepend: site.url }}" alt="Resell Partners">
+            <img class="image col-md-4" src="{{ '/img/libraries.png' | prepend: site.baseurl | prepend: site.url }}" alt="Resell Partners">
             <div class="content col-md-8">
                 <h3 class="title">Resell Partners</h3>
                 <p>Sell Labs64 NetLicensing to customers as is or as part of your own solutions.</p>
@@ -79,7 +79,7 @@ tags:
     </div>
     <div class="col-md-6">
         <div class="docu-card">
-            <img class="image col-md-4" src="{{ '/img/libraries.png' | prepend: site.baseurl | prepend: site.url }}" alt="Referral Partners">
+            <img class="image col-md-4" src="{{ '/img/getting_started.png' | prepend: site.baseurl | prepend: site.url }}" alt="Referral Partners">
             <div class="content col-md-8">
                 <h3 class="title">Referral Partners</h3>
                 <p>Discover new use opportunities for Labs64 NetLicensing, generate leads, and earn commission.</p>
