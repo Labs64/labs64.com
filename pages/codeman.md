@@ -32,4 +32,4 @@ This way you will have successfully linked your online and offline products and 
 
 ---
 
-codeMan by Labs64/grinia is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/){:target="_blank"}{:rel="noopener nofollow"}.
+codeMan by Labs64/grinia is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/){:target="_blank"}{:rel="noopener nofollow"}.
