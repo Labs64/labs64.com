@@ -1,4 +1,4 @@
-<a href="https://www.labs64.com"><img src="https://www.labs64.com/img/netlicensing-stage-twitter.jpg" alt="Innovative License Management Solution"></a>
+<a href="https://www.labs64.com"><img src="https://www.labs64.com/img/labs64-stage-01.png" alt="Labs64 - Innovations Delivered"></a>
 
 # [Labs64](https://www.labs64.com) - Innovations Delivered
 
