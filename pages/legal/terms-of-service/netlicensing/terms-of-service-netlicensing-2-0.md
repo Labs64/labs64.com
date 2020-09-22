@@ -51,7 +51,7 @@ NetLicensing is protected by copyright; Labs64 shall be entitled to the rights r
 
 #### 1\. Royalties
 
-The CUSTOMER shall pay to Labs64 the royalties set down in the [Price List](/netlicensing/pricing/). Any and all royalties in percent and / or in EURO are quoted net, exclusive of the respectively applicable value-added tax.  
+The CUSTOMER shall pay to Labs64 the royalties set down in the [Price List](https://netlicensing.io/pricing/). Any and all royalties in percent and / or in EURO are quoted net, exclusive of the respectively applicable value-added tax.  
 To extent that the CUSTOMER provides Labs64 with a verified value-added tax identification number for his company in a non-EU country, the settlement of the royalties shall take place net pursuant to §§ 3a (2) sentence 1, 13 b of the German Turnover Tax Law \[UStG – Umsatzsteuergesetz\] with notification pertaining to the passing on of the tax liability to the customer (recipient of our service). The CUSTOMER shall be obliged to promptly inform Labs64 of any changes to the performance country, the value-added tax identification number or the withdrawal or discontinuation of the same, and shall be held liable for any and all damage which is incurred from a breach of this duty.
 
 #### 2\. Invoicing

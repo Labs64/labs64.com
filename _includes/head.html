@@ -30,7 +30,6 @@
     {% endif %}
 
     {% include analytics.html %}
-    {% include yandex-metrika.html %}
     {% include opengraph.html %}
     {% include twittercard.html %}
     {% include dublincore.html %}
@@ -60,6 +59,6 @@
       {% assign canonical = page.url | prepend: site.baseurl | prepend: site.url %}
       <link rel="canonical" href="{{ canonical }}">
     {% endif %}
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://netlicensing.io/feed.xml">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | prepend: site.baseurl | prepend: site.url }}">
 </head>
