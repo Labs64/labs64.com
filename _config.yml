@@ -27,6 +27,7 @@ topnav_sticker_text: "We Are Hiring!"
 topnav_sticker_url: "/career/"
 topnav_sticker_image: "/img/labs64-hiring.png"
 topnav_sticker_onclick: ""
+topnav_sticker_target: "_self"
 
 # SEO
 google_analytics_tracking_id: "UA-32654174-1"
