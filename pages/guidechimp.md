@@ -36,7 +36,7 @@ tags:
     <div id="cbp-so-scroller" class="cbp-so-scroller NL_intro">
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/Fotolia_51881060_S.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Areas of expertise" title="Areas of expertise">
+                <img src="{{ '/img/guidechimp-logo-transparent.png' | prepend: site.baseurl | prepend: site.url }}" alt="Areas of expertise" title="Areas of expertise">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>User Experience</h2>
@@ -50,13 +50,13 @@ tags:
                 <span>Successfully onboard your users from day one with an intuitive step by step walkthroughs.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/Fotolia_30977183_XS.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Consulting" title="Consulting">
+                <img src="{{ '/img/guidechimp-logo-transparent.png' | prepend: site.baseurl | prepend: site.url }}" alt="Consulting" title="Consulting">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/Fotolia_57409041_XS.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Outsourcing" title="Outsourcing">
+                <img src="{{ '/img/guidechimp-logo-transparent.png' | prepend: site.baseurl | prepend: site.url }}" alt="Outsourcing" title="Outsourcing">
             </figure>
             <article id="reduce-ecommerce-complexity" class="cbp-so-side cbp-so-side-right">
                 <h2>Feature Adoption</h2>
@@ -70,15 +70,18 @@ tags:
 <div class="row">
     <div class="col-md-12 NL_form_light NL_block">
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
-            <h2>We are looking forward to hearing from you</h2>
+            <h2>Learn more about GuideChimp</h2>
             <span>Contact us if you are interested in our services and products and/or want to know more about Labs64.</span>
 
             <form action="https://github.com/Labs64/GuideChimp" method="GET"
-                  name="GitHub" id="contact"
+                  name="GitHub" id="github"
                   novalidate>
-                <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
-                    <i class="fa fa-github "></i>Contact
-                </button>
+                <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn"><i class="fa fa-github"></i>On GitHub</button>
+            </form>
+            <form action="https://github.com/Labs64/GuideChimp/wiki" method="GET"
+                  name="Wiki" id="wiki"
+                  novalidate>
+                <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn"><i class="fa fa-book"></i>View Docs</button>
             </form>
         </div>
     </div>
