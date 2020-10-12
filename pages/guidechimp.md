@@ -4,25 +4,22 @@ title: "GuideChimp"
 description: "Create interactive guided product tours in minutes with the most non-technical friendly, lightweight and extendable library."
 permalink: "/guidechimp/"
 tags:
-- services
 - guide
-- guided-tour
-- user-flow
-- product-tour
-- tour-guide
-- tour-guide-app
-- tour
-- tours
-- user-experience
+- guided tour
+- product tour
+- user flow
+- user experience
+- user training
+- user manual
 - onboarding
-- feature-adoption
-- employee-training
+- feature adoption
+- employee training
 - tooltips
 - beacon
 - hint
 - hotspot
 - walkthrough
-- flow
+- engagement
 ---
 
 <div class="row NL_banner">
@@ -31,20 +28,23 @@ tags:
         <span>{{ page.description }}</span>
         <div class="row">
             <div id="live-demo" class="col-md-4 col-md-offset-2">
-                <a href="#"
+                <a href="#" id="guidechimp-demo"
                    class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-eye"></i>Demo</a>
             </div>
             <div id="documentation" class="col-md-4">
                 <a href="https://github.com/Labs64/GuideChimp/wiki"
-                   class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-rocket"></i>Documentation</a>
-            </div>
-            <div id="github" class="col-md-4">
-                <a href="https://github.com/Labs64/GuideChimp"
-                   class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-github"></i>GitHub</a>
+                   class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-book"></i>Documentation</a>
             </div>
         </div>
     </div>
 </div> 
+
+<script>
+var guideChimp = new GuideChimp(tourGuideChimp);
+document.getElementById('guidechimp-demo').onclick = function() {
+  guideChimp.start();
+};
+</script>
 
 <div class="row">
     <div id="cbp-so-scroller" class="cbp-so-scroller NL_intro">
@@ -78,14 +78,24 @@ tags:
             </article>
         </section>
 
+        <section class="cbp-so-section">
+            <article id="maximize-revenue" class="cbp-so-side cbp-so-side-left">
+                <h2>Employee Training</h2>
+                <span>Improve your employees' productivity by providing an efficient and interactive training system.</span>
+            </article>
+            <figure class="cbp-so-side cbp-so-side-right">
+                <img src="{{ '/img/guidechimp-logo-notext-transparent.png' | prepend: site.baseurl | prepend: site.url }}" alt="Consulting" title="Consulting">
+            </figure>
+        </section>
+
     </div>
 </div>
 
 <div class="row">
     <div class="col-md-12 NL_form_light NL_block">
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
-            <h2>Learn more about GuideChimp</h2>
-            <span>Contact us if you are interested in our services and products and/or want to know more about Labs64.</span>
+            <h2>Ready to start?</h2>
+            <span>Start reading GuideChimp documentation.</span>
 
             <form action="https://github.com/Labs64/GuideChimp/wiki" method="GET"
                   name="Wiki" id="wiki"
@@ -99,7 +109,7 @@ tags:
 <div class="row NL_block">
     <h2 class="col-md-12">GuideChimp Licensing</h2>
 
-    <p class="col-md-8 col-md-offset-2" style="text-align:center;">GuideChimp is made available under the *European Union Public License, version 1.2* or *Commercial License*. The Commercial License requires the payment of a fee for each designated commercial application.
+    <p class="col-md-8 col-md-offset-2" style="text-align:center;">GuideChimp is made available under the <i>European Union Public License, version 1.2</i> or <i>Commercial License</i>. The Commercial License requires the payment of a fee for each designated commercial application.
     If you choose not to pay a fee and use the European Union Public License, version 1.2, you are required to release the source code of any program that you distribute that uses GuideChimp.
     If you choose to pay for a Commercial License, you are not required to disclose your source code.</p>
 </div>
