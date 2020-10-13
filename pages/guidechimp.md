@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "GuideChimp"
-description: "Create interactive guided product tours in minutes with the most non-technical friendly, lightweight and extendable library."
+title: "Deliver the Perfect Product Experience"
+description: "Create interactive guided product tours in minutes with GuideChimp - the most non-technical friendly, lightweight and extendable library."
 permalink: "/guidechimp/"
 tags:
 - guide
@@ -38,13 +38,6 @@ tags:
         </div>
     </div>
 </div> 
-
-<script>
-var guideChimp = new GuideChimp(tourGuideChimp);
-document.getElementById('guidechimp-demo').onclick = function() {
-  guideChimp.start();
-};
-</script>
 
 <div class="row">
     <div id="cbp-so-scroller" class="cbp-so-scroller NL_intro">
@@ -113,3 +106,34 @@ document.getElementById('guidechimp-demo').onclick = function() {
     If you choose not to pay a fee and use the European Union Public License, version 1.2, you are required to release the source code of any program that you distribute that uses GuideChimp.
     If you choose to pay for a Commercial License, you are not required to disclose your source code.</p>
 </div>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.css"/>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.js"></script>
+<script>
+    var tourGuideChimp = [
+        {
+            element: '[data-id="id-9"]',
+            title: 'Node-Locked',
+            description: 'Software is licensed for use only on one or more <i>named computer systems</i>. Usually, CPU serial number verification is used to enforce this type of license.',
+            buttons: [
+                {
+                    title: 'Learn More',
+                    class: 'NL_button button_main NL_dark_btn NL_wide_btn',
+                    onClick: function () {
+                        window.location.href = 'https://netlicensing.io/wiki/node-locked';
+                    }
+                }
+            ]
+        }
+    ];
+
+    var guideChimp = new GuideChimp(tourGuideChimp);
+    document.getElementById('guidechimp-demo').onclick = function() {
+        guideChimp.start();
+    };
+</script>
+<style>
+    .gc-tooltip {
+        max-width: 450px;
+    }
+</style>
