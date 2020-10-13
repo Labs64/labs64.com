@@ -99,6 +99,8 @@ tags:
     </div>
 </div>
 
+{% include pricing-table-guidechimp.html %}
+
 <div class="row NL_block">
     <h2 class="col-md-12">GuideChimp Licensing</h2>
 
