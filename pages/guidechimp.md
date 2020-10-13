@@ -25,7 +25,7 @@ tags:
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
         <h1>{{ page.title }}</h1>
-        <span>{{ page.description }}</span>
+        <span>Create interactive guided product tours in minutes with GuideChimp<br/>The most non-technical friendly, lightweight and extendable library.</span>
         <div class="row">
             <div id="live-demo" class="col-md-4 col-md-offset-2">
                 <a href="#" id="guidechimp-demo"
@@ -46,15 +46,15 @@ tags:
                 <img src="{{ '/img/guidechimp-logo-notext-transparent.png' | prepend: site.baseurl | prepend: site.url }}" alt="Areas of expertise" title="Areas of expertise">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
-                <h2>User Experience</h2>
-                <span>Implement engaging and personalised guides to walk users through your system.</span>
+                <h2>Framework Ready</h2>
+                <span>GuideChimp is ready to drop into your application using React, Vue.js, Angular, ES Modules, or plain JavaScript and HTML.</span>
             </article>
         </section>
 
         <section class="cbp-so-section">
             <article id="maximize-revenue" class="cbp-so-side cbp-so-side-left">
-                <h2>User Onboarding</h2>
-                <span>Successfully onboard your users from day one with an intuitive step by step walkthroughs.</span>
+                <h2>Highly Customizable</h2>
+                <span>GuideChimp styles are kept minimal, allowing you to easily customize the look and feel, but still give you enough to drop in and be ready to go quickly.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
                 <img src="{{ '/img/guidechimp-logo-notext-transparent.png' | prepend: site.baseurl | prepend: site.url }}" alt="Consulting" title="Consulting">
@@ -66,15 +66,15 @@ tags:
                 <img src="{{ '/img/guidechimp-logo-notext-transparent.png' | prepend: site.baseurl | prepend: site.url }}" alt="Outsourcing" title="Outsourcing">
             </figure>
             <article id="reduce-ecommerce-complexity" class="cbp-so-side cbp-so-side-right">
-                <h2>Feature Adoption</h2>
-                <span>Introduce and highlight new features with personalized guides.</span>
+                <h2>Extendable</h2>
+                <span>GuideChimp is easily extendable using out-of-the-box and third-party plugins.</span>
             </article>
         </section>
 
         <section class="cbp-so-section">
             <article id="maximize-revenue" class="cbp-so-side cbp-so-side-left">
-                <h2>Employee Training</h2>
-                <span>Improve your employees' productivity by providing an efficient and interactive training system.</span>
+                <h2>Dual-Licensed</h2>
+                <span>Open Source (European Union Public License v1.2) and Commercial (including great support, maintenance and customized implementation)</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
                 <img src="{{ '/img/guidechimp-logo-notext-transparent.png' | prepend: site.baseurl | prepend: site.url }}" alt="Consulting" title="Consulting">
@@ -93,7 +93,7 @@ tags:
             <form action="https://github.com/Labs64/GuideChimp/wiki" method="GET"
                   name="Wiki" id="wiki"
                   novalidate>
-                <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn"><i class="fa fa-book"></i>View Docs</button>
+                <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn"><i class="fa fa-github"></i>Star on GitHub</button>
             </form>
         </div>
     </div>
