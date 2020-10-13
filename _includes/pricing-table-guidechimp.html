@@ -203,35 +203,36 @@
             </div>
         </div>
     </div>
-    <div class="nlic-attribution">
-        Powered by <a href="https://netlicensing.io" target="_blank" rel="nofollow">Labs64 NetLicensing</a>
-    </div>
-
-    <script>
-        //<![CDATA[
-        (function () {
-            var searchParams = {};
-
-            // parse search params
-            window.location.search
-                .substring(1)
-                .split('&')
-                .forEach(function (v) {
-                    var pair = v.split('=');
-                    searchParams[pair[0]] = decodeURIComponent(pair[1]);
-                });
-
-            var shopToken = searchParams['nlic_shoptoken'];
-
-            if (shopToken) {
-                document.querySelectorAll('a.nlic-action-url')
-                    .forEach(function (a) {
-                        a.search = (a.search)
-                            ? a.search + '&shoptoken=' + encodeURIComponent(shopToken)
-                            : '?shoptoken=' + encodeURIComponent(shopToken);
-                    });
-            }
-        })();
-        //]]>
-    </script>
 </div>
+
+<div class="nlic-attribution">
+    Powered by <a href="https://netlicensing.io" target="_blank" rel="nofollow">Labs64 NetLicensing</a>
+</div>
+
+<script>
+    //<![CDATA[
+    (function () {
+        var searchParams = {};
+
+        // parse search params
+        window.location.search
+            .substring(1)
+            .split('&')
+            .forEach(function (v) {
+                var pair = v.split('=');
+                searchParams[pair[0]] = decodeURIComponent(pair[1]);
+            });
+
+        var shopToken = searchParams['nlic_shoptoken'];
+
+        if (shopToken) {
+            document.querySelectorAll('a.nlic-action-url')
+                .forEach(function (a) {
+                    a.search = (a.search)
+                        ? a.search + '&shoptoken=' + encodeURIComponent(shopToken)
+                        : '?shoptoken=' + encodeURIComponent(shopToken);
+                });
+        }
+    })();
+    //]]>
+</script>
