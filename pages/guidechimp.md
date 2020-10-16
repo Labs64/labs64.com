@@ -27,7 +27,7 @@ tags:
         <h1>{{ page.title }}</h1>
         <span>Create interactive guided product tours in minutes with GuideChimp<br/>The most non-technical friendly, lightweight and extendable library.</span>
         <div class="row">
-            <div id="live-demo" class="col-md-4 col-md-offset-2">
+            <div id="guidechimp-demo" class="col-md-4 col-md-offset-2">
                 <a href="#" id="guidechimp-demo"
                    class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-eye"></i>Demo</a>
             </div>
@@ -107,7 +107,7 @@ tags:
     If you choose to pay for a Commercial License, you are not required to disclose your source code.</p>
 </div>
 
-<div class="row">
+<div class="row NL_block NL_pricing">
     {% include pricing-table-guidechimp.html %}
 </div>
 
