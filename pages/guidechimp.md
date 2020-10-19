@@ -29,7 +29,7 @@ tags:
         <div class="row">
             <div id="guidechimp-demo" class="col-md-4 col-md-offset-2">
                 <a href="#" id="guidechimp-demo"
-                   class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-eye"></i>Demo</a>
+                   class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-eye"></i>Demo Tour</a>
             </div>
             <div id="documentation" class="col-md-4">
                 <a href="https://github.com/Labs64/GuideChimp/wiki"
@@ -45,14 +45,14 @@ tags:
             <figure class="cbp-so-side cbp-so-side-left">
                 <img src="{{ '/img/guidechimp-01-framework.png' | prepend: site.baseurl | prepend: site.url }}" alt="Framework Ready" title="Framework Ready">
             </figure>
-            <article class="cbp-so-side cbp-so-side-right">
+            <article id="framework" class="cbp-so-side cbp-so-side-right">
                 <h2>Framework Ready</h2>
                 <span>GuideChimp can be seamlessly integrated with any web app and ready to drop into your application using React, Vue.js, Angular, ES Modules, or plain JavaScript and HTML.</span>
             </article>
         </section>
 
         <section class="cbp-so-section">
-            <article id="maximize-revenue" class="cbp-so-side cbp-so-side-left">
+            <article id="customizable" class="cbp-so-side cbp-so-side-left">
                 <h2>Highly Customizable</h2>
                 <span>GuideChimp works well with tools you already use and can be easily customized through SCSS and clean CSS to look like an integral part of your product.</span>
             </article>
@@ -65,14 +65,14 @@ tags:
             <figure class="cbp-so-side cbp-so-side-left">
                 <img src="{{ '/img/guidechimp-03-extendable.png' | prepend: site.baseurl | prepend: site.url }}" alt="Extendable" title="Extendable">
             </figure>
-            <article id="reduce-ecommerce-complexity" class="cbp-so-side cbp-so-side-right">
+            <article id="extendable" class="cbp-so-side cbp-so-side-right">
                 <h2>Extendable</h2>
                 <span>GuideChimp is extendable using out-of-the-box and third-party plugins, which enhance functionality with usability, feedback, analytics, etc. tools.</span>
             </article>
         </section>
 
         <section class="cbp-so-section">
-            <article id="maximize-revenue" class="cbp-so-side cbp-so-side-left">
+            <article id="developers" class="cbp-so-side cbp-so-side-left">
                 <h2>Developers Friendly</h2>
                 <span>GuideChimp is well documented and the open-source library is easy to integrate and have a very short learning curve.</span>
             </article>
@@ -87,8 +87,8 @@ tags:
 <div class="row">
     <div class="col-md-12 NL_form_light NL_block">
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
-            <h2>Ready to start?</h2>
-            <span>Start reading GuideChimp documentation.</span>
+            <h2>GuideChimp loved by many</h2>
+            <span>The world's smartest companies using GuideChimp Open-source  Library to boost their user experience.</span>
 
             <form action="https://github.com/Labs64/GuideChimp/wiki" method="GET"
                   name="Wiki" id="wiki"
@@ -116,15 +116,20 @@ tags:
 <script>
     var tourGuideChimp = [
         {
-            element: '[data-id="id-9"]',
-            title: 'Node-Locked',
-            description: 'Software is licensed for use only on one or more <i>named computer systems</i>. Usually, CPU serial number verification is used to enforce this type of license.',
+            element: '#guidechimp-demo',
+            title: 'GuideChimp Demo',
+            description: 'See GuideChimp in action, right here & now, on your screen.'
+        },
+        {
+            element: '#documentation',
+            title: 'GuideChimp Documentation',
+            description: 'GuideChimp documentation.',
             buttons: [
                 {
                     title: 'Learn More',
                     class: 'NL_button button_main NL_dark_btn NL_wide_btn',
                     onClick: function () {
-                        window.location.href = 'https://netlicensing.io/wiki/node-locked';
+                        window.location.href = 'https://github.com/Labs64/GuideChimp/wiki';
                     }
                 }
             ]
