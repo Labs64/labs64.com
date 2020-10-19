@@ -88,10 +88,10 @@ tags:
     <div class="col-md-12 NL_form_light NL_block">
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
             <h2>GuideChimp loved by many</h2>
-            <span>The world's smartest companies using GuideChimp Open-source  Library to boost their user experience.</span>
+            <span>The world's smartest companies using GuideChimp open-source library to boost their user experience.</span>
 
-            <form action="https://github.com/Labs64/GuideChimp/wiki" method="GET"
-                  name="Wiki" id="wiki"
+            <form action="https://github.com/Labs64/GuideChimp" method="GET"
+                  name="GitHub" id="github"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn"><i class="fa fa-github"></i>Star on GitHub</button>
             </form>
