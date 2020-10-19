@@ -43,41 +43,41 @@ tags:
     <div id="cbp-so-scroller" class="cbp-so-scroller NL_intro">
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/guidechimp-logo-notext-transparent.png' | prepend: site.baseurl | prepend: site.url }}" alt="Areas of expertise" title="Areas of expertise">
+                <img src="{{ '/img/guidechimp-logo-notext-transparent.png' | prepend: site.baseurl | prepend: site.url }}" alt="Framework Ready" title="Framework Ready">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Framework Ready</h2>
-                <span>GuideChimp is ready to drop into your application using React, Vue.js, Angular, ES Modules, or plain JavaScript and HTML.</span>
+                <span>GuideChimp can be seamlessly integrated with any web app and ready to drop into your application using React, Vue.js, Angular, ES Modules, or plain JavaScript and HTML.</span>
             </article>
         </section>
 
         <section class="cbp-so-section">
             <article id="maximize-revenue" class="cbp-so-side cbp-so-side-left">
                 <h2>Highly Customizable</h2>
-                <span>GuideChimp styles are kept minimal, allowing you to easily customize the look and feel, but still give you enough to drop in and be ready to go quickly.</span>
+                <span>GuideChimp works well with tools you already use and can be easily customized through SCSS and clean CSS to look like an integral part of your product.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/guidechimp-logo-notext-transparent.png' | prepend: site.baseurl | prepend: site.url }}" alt="Consulting" title="Consulting">
+                <img src="{{ '/img/guidechimp-logo-notext-transparent.png' | prepend: site.baseurl | prepend: site.url }}" alt="Customizable" title="Customizable">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/guidechimp-logo-notext-transparent.png' | prepend: site.baseurl | prepend: site.url }}" alt="Outsourcing" title="Outsourcing">
+                <img src="{{ '/img/guidechimp-logo-notext-transparent.png' | prepend: site.baseurl | prepend: site.url }}" alt="Extendable" title="Extendable">
             </figure>
             <article id="reduce-ecommerce-complexity" class="cbp-so-side cbp-so-side-right">
                 <h2>Extendable</h2>
-                <span>GuideChimp is easily extendable using out-of-the-box and third-party plugins.</span>
+                <span>GuideChimp is extendable using out-of-the-box and third-party plugins, which enhance functionality with usability, feedback, analytics, etc. tools.</span>
             </article>
         </section>
 
         <section class="cbp-so-section">
             <article id="maximize-revenue" class="cbp-so-side cbp-so-side-left">
-                <h2>Dual-Licensed</h2>
-                <span>Open Source (European Union Public License v1.2) and Commercial (including great support, maintenance and customized implementation)</span>
+                <h2>Developers Friendly</h2>
+                <span>GuideChimp is well documented and the open-source library is easy to integrate and have a very short learning curve.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/guidechimp-logo-notext-transparent.png' | prepend: site.baseurl | prepend: site.url }}" alt="Consulting" title="Consulting">
+                <img src="{{ '/img/guidechimp-logo-notext-transparent.png' | prepend: site.baseurl | prepend: site.url }}" alt="Developers Friendly" title="Developers Friendly">
             </figure>
         </section>
 
