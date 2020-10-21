@@ -21,7 +21,7 @@ tags:
 - walkthrough
 - engagement
 image:
-  url: /img/guidechimp-stage-03.png
+  url: /img/guidechimp/guidechimp-stage-03.png
 ---
 
 <div class="row NL_banner">
@@ -45,7 +45,7 @@ image:
     <div id="cbp-so-scroller" class="cbp-so-scroller NL_intro">
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/guidechimp-01-framework.png' | prepend: site.baseurl | prepend: site.url }}" alt="Framework Ready" title="Framework Ready">
+                <img src="{{ '/img/guidechimp/guidechimp-01-framework.png' | prepend: site.baseurl | prepend: site.url }}" alt="Framework Ready" title="Framework Ready">
             </figure>
             <article id="framework" class="cbp-so-side cbp-so-side-right">
                 <h2>Framework Ready</h2>
@@ -59,13 +59,13 @@ image:
                 <span>GuideChimp works well with tools you already use and can be easily customized through SCSS and clean CSS to look like an integral part of your product.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/guidechimp-02b-customizable.png' | prepend: site.baseurl | prepend: site.url }}" alt="Customizable" title="Customizable">
+                <img src="{{ '/img/guidechimp/guidechimp-02b-customizable.png' | prepend: site.baseurl | prepend: site.url }}" alt="Customizable" title="Customizable">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/guidechimp-03-extendable.png' | prepend: site.baseurl | prepend: site.url }}" alt="Extendable" title="Extendable">
+                <img src="{{ '/img/guidechimp/guidechimp-03-extendable.png' | prepend: site.baseurl | prepend: site.url }}" alt="Extendable" title="Extendable">
             </figure>
             <article id="extendable" class="cbp-so-side cbp-so-side-right">
                 <h2>Extendable</h2>
@@ -79,7 +79,7 @@ image:
                 <span>GuideChimp is well documented and the open-source library is easy to integrate and have a very short learning curve.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/guidechimp-04-developer.png' | prepend: site.baseurl | prepend: site.url }}" alt="Developers Friendly" title="Developers Friendly">
+                <img src="{{ '/img/guidechimp/guidechimp-04-developer.png' | prepend: site.baseurl | prepend: site.url }}" alt="Developers Friendly" title="Developers Friendly">
             </figure>
         </section>
 
