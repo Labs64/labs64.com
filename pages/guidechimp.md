@@ -20,6 +20,8 @@ tags:
 - hotspot
 - walkthrough
 - engagement
+image:
+  url: /img/guidechimp-stage-03.png
 ---
 
 <div class="row NL_banner">
