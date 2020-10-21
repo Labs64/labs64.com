@@ -33,7 +33,7 @@
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
-    line-height: 1.2;
+    line-height: 1.5;
     white-space: nowrap;
 }
 
@@ -54,7 +54,7 @@
     text-align: center;
     display: block;
     margin: 0 0;
-    font-size: larger;
+    font-size: larger;f
     padding: 20px 0 0 0;
 }
 
@@ -69,6 +69,7 @@
     padding-left: 10px;
     display: inline-block;
     width: 20%;
+    vertical-align: top;
 }
 
 .nlic-plan-column .nlic-column-head {
@@ -93,6 +94,7 @@
     min-height: 40px;
     display: block;
     font-weight: 700;
+    padding-top: 10px;
 }
 
 .nlic-plan-description {

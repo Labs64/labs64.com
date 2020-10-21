@@ -100,11 +100,13 @@ tags:
 </div>
 
 <div class="row NL_block">
-    <h2 class="col-md-12">GuideChimp Licensing</h2>
+    <h2 id="guidechimp-licensing" class="col-md-12">GuideChimp Licensing</h2>
 
-    <p class="col-md-8 col-md-offset-2" style="text-align:center;">GuideChimp is made available under the <i>European Union Public License, version 1.2</i> or <i>Commercial License</i>. The Commercial License requires the payment of a fee for each designated commercial application.
-    If you choose not to pay a fee and use the European Union Public License, version 1.2, you are required to release the source code of any program that you distribute that uses GuideChimp.
-    If you choose to pay for a Commercial License, you are not required to disclose your source code.</p>
+    <p class="col-md-8 col-md-offset-2" style="text-align:center;">GuideChimp is made available under the <i>European Union Public License, version 1.2</i> or <i>Commercial License</i>.
+    <br>The Commercial License requires the payment of a fee for each designated commercial application.
+    <br>If you choose not to pay a fee and use the <i>European Union Public License, version 1.2</i>, you are required to release the source code of any program that you distribute that uses GuideChimp.
+    <br>If you choose to pay for a <i>Commercial License</i>, you are not required to disclose your source code.
+    </p>
 </div>
 
 <div class="row NL_block NL_pricing">
