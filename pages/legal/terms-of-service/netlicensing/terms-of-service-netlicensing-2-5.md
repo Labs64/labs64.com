@@ -98,7 +98,7 @@ We request that you place NetLicensing attribution on your main page or/and in y
 You can use this “nofollow” link as a template:
 
 ```
-<a href="https://netlicensing.io" rel="nofollow"> Powered by Labs64 NetLicensing </a>
+<a href="https://netlicensing.io" target="_blank" rel="noopener nofollow">Powered by Labs64 NetLicensing</a>
 ```
 
 ### V. Duties of the customer
