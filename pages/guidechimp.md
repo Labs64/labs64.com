@@ -39,7 +39,7 @@ image:
             </div>
         </div>
     </div>
-</div> 
+</div>
 
 <div class="row">
     <div id="cbp-so-scroller" class="cbp-so-scroller NL_intro">
