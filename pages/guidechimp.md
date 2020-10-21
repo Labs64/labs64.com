@@ -93,7 +93,7 @@ tags:
             <form action="https://github.com/Labs64/GuideChimp" method="GET"
                   name="GitHub" id="github"
                   novalidate>
-                <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn"><i class="fa fa-github"></i>Star on GitHub</button>
+                <button type="submit" id="guidechimp-github" class="NL_button button_main NL_dark_btn NL_wide_btn"><i class="fa fa-github"></i>Star on GitHub</button>
             </form>
         </div>
     </div>
@@ -137,6 +137,20 @@ tags:
                     }
                 }
             ]
+        },
+        {
+            element: '#guidechimp-github',
+            title: 'GuideChimp is Open Source',
+            description: 'If you like GuideChimp, give us a star on GitHub ⭐',
+            buttons: [
+                {
+                    title: 'Star on GitHub',
+                    class: 'NL_button button_main NL_dark_btn NL_wide_btn',
+                    onClick: function () {
+                        window.open('https://github.com/Labs64/GuideChimp/stargazers', '_blank');
+                    }
+                }
+            ]
         }
     ];
     var guideChimp = GuideChimp(tourGuideChimp);
@@ -147,6 +161,7 @@ tags:
         element: '#guidechimp-demo',
         position: 'top-left',
         boundary: 'outer',
+        class: 'beacon-white',
         onClick() {
             guideChimp.start();
         },
@@ -160,5 +175,15 @@ tags:
 <style>
     .gc-tooltip {
         max-width: 450px;
+    }
+
+    .beacon-white {
+        background-color: rgba(255, 255, 255, 1) !important;
+    }
+    .beacon-white:before {
+        box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.7) !important;
+    }
+    .beacon-white.gc-beacon {
+        background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1));
     }
 </style>
