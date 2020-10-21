@@ -27,12 +27,12 @@ tags:
         <h1>{{ page.title }}</h1>
         <span>Create interactive guided product tours in minutes with GuideChimp<br/>The most non-technical friendly, lightweight and extendable library.</span>
         <div class="row">
-            <div id="guidechimp-demo" class="col-md-4 col-md-offset-2">
+            <div class="col-md-4 col-md-offset-2">
                 <a href="#" id="guidechimp-demo"
                    class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-eye"></i>Demo Tour</a>
             </div>
-            <div id="documentation" class="col-md-4">
-                <a href="https://github.com/Labs64/GuideChimp/wiki"
+            <div class="col-md-4">
+                <a href="https://github.com/Labs64/GuideChimp/wiki" id="guidechimp-documentation"
                    class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-book"></i>Documentation</a>
             </div>
         </div>
@@ -111,9 +111,13 @@ tags:
     {% include pricing-table-guidechimp.html %}
 </div>
 
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.css"/>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/plugins/beacons.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/plugins/beacons.min.css">
+
 <script>
+    GuideChimp.extend(guideChimpPluginBeacons);
     var tourGuideChimp = [
         {
             element: '#guidechimp-demo',
@@ -121,26 +125,38 @@ tags:
             description: 'See GuideChimp in action, right here & now, on your screen.'
         },
         {
-            element: '#documentation',
+            element: '#guidechimp-documentation',
             title: 'GuideChimp Documentation',
-            description: 'GuideChimp documentation.',
+            description: 'In GuideChimp Wiki, you will see how to install and configure GuideChimp for your needs, as well as lots of useful examples and tips.',
             buttons: [
                 {
-                    title: 'Learn More',
+                    title: 'Open Wiki',
                     class: 'NL_button button_main NL_dark_btn NL_wide_btn',
                     onClick: function () {
-                        window.location.href = 'https://github.com/Labs64/GuideChimp/wiki';
+                        window.open('https://github.com/Labs64/GuideChimp/wiki', '_blank');
                     }
                 }
             ]
         }
     ];
-
-    var guideChimp = new GuideChimp(tourGuideChimp);
-    document.getElementById('guidechimp-demo').onclick = function() {
+    var guideChimp = GuideChimp(tourGuideChimp);
+    document.querySelector('#guidechimp-demo').onclick = function () {
         guideChimp.start();
     };
+    var beacons = [{
+        element: '#guidechimp-demo',
+        position: 'top-left',
+        boundary: 'outer',
+        onClick() {
+            guideChimp.start();
+        },
+    }];
+    var guideChimpBeacon = GuideChimp.beacons(beacons, {
+        boundary: 'outer'
+    });
+    guideChimpBeacon.showAll();
 </script>
+
 <style>
     .gc-tooltip {
         max-width: 450px;

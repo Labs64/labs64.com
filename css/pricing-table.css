@@ -208,7 +208,9 @@
 .nlic-attribution {
     clear: both;
     text-align: right;
+    font-size: smaller;
     padding-top: 20px;
+    padding-right: 155px;
 }
 
 /* Custom styles */
