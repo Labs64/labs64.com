@@ -39,7 +39,7 @@
   icon: /img/guidechimp/guidechimp-icon-64x64.png
 
 - name: Easy Tour Definition
-  description: Tour steps can be defined in two ways: HTML elements data attributes and JavaScript object properties.
+  description: Tour steps can be defined in two ways - HTML elements data attributes and JavaScript object properties.
   icon: /img/guidechimp/guidechimp-icon-64x64.png
 
 - name: i18n Support
@@ -51,7 +51,7 @@
   icon: /img/guidechimp/guidechimp-icon-64x64.png
 
 - name: Lazy-loading
-  description: Enable tour on the lazy-loaded or delayed elements (post-rendering, route changing, etc.) in single-page applications using "onBeforeChange" event.
+  description: Enable tour on the lazy-loaded or delayed elements (post-rendering, route changing, etc.) in single-page applications using 'onBeforeChange' event.
   icon: /img/guidechimp/guidechimp-icon-64x64.png
 
 - name: Call to Action
@@ -75,7 +75,7 @@
   icon: /img/guidechimp/guidechimp-icon-64x64.png
 
 - name: Callbacks
-  description: Set callback ("onBeforeChange", "onAfterChange", etc.) listener functions for each step or event in the tour.
+  description: Set callback ('onBeforeChange', 'onAfterChange', etc.) listener functions for each step or event in the tour.
   icon: /img/guidechimp/guidechimp-icon-64x64.png
 
 - name: Lightweight
