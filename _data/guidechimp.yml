@@ -1,0 +1,87 @@
+- name: Seamless Integration
+  description: GuideChimp can be seamlessly enabled on any web app.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Simple & Robust
+  description: GuideChimp is simple and robust enough to provide results with minimal effort! Set up it in just 3 minutes!
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Individual Styling
+  description: Let GuideChimp look like an integral part of your software product by configuring its look & feel.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Great Tools Support
+  description: GuideChimp works well with tools you already use (e.g. WordPress, Confluence, etc.).
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Beacons
+  description: Raise visitors attention by adding a beacon to any element on the web page.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Best Onboarding Techniques
+  description: Create Tours, Flows, Walkthroughs, Guides, Interactive Tutorials, etc.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Single Page Support
+  description: Support of Single Page Applications build with Angular, Vue.js, React, etc.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Plugins
+  description: Extendable using out-of-the-box and third-party plugins.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Documentation
+  description: Detailed installation and configuration documentation.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Smart Positioning
+  description: Tooltip auto-positioning on an element.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Easy Tour Definition
+  description: Tour steps can be defined in two ways: HTML elements data attributes and JavaScript object properties.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: i18n Support
+  description: Create local tours for any language enabled on zone website.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Dynamic Tours
+  description: Add tour steps programmatically or configure tours branching.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Lazy-loading
+  description: Enable tour on the lazy-loaded or delayed elements (post-rendering, route changing, etc.) in single-page applications using "onBeforeChange" event.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Call to Action
+  description: Define custom action buttons or links to give an additional context.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Modular Design
+  description: GuideChimp is designed as a JS class, so you can easily inherit from it and change / add custom methods.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Improved Usability
+  description: Awesome design and flexible customization options, such as pagination, navigation, progress bar, styles, etc. allow creation of the individual UX.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: HTML snippets
+  description: HTML code snippets can be also used in the tooltip text.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Large Tooltips
+  description: Support of extra-large tooltip description texts.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Callbacks
+  description: Set callback ("onBeforeChange", "onAfterChange", etc.) listener functions for each step or event in the tour.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Lightweight
+  description: < 45KB and good performance.
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
+
+- name: Dual-Licensed
+  description: Open-Source version for individual or community projects and Commercial for high demand (including great support, maintenance and customized implementation).
+  icon: /img/guidechimp/guidechimp-icon-64x64.png
