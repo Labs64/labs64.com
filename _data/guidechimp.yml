@@ -78,10 +78,10 @@
   description: Set callback ('onBeforeChange', 'onAfterChange', etc.) listener functions for each step or event in the tour.
   icon: /img/guidechimp/guidechimp-icon-64x64.png
 
-- name: Lightweight
-  description: < 45KB and good performance.
-  icon: /img/guidechimp/guidechimp-icon-64x64.png
+#- name: Lightweight
+#  description: < 45KB and good performance.
+#  icon: /img/guidechimp/guidechimp-icon-64x64.png
 
-- name: Dual-Licensed
-  description: Open-Source version for individual or community projects and Commercial for high demand (including great support, maintenance and customized implementation).
-  icon: /img/guidechimp/guidechimp-icon-64x64.png
+#- name: Dual-Licensed
+#  description: Open-Source version for individual or community projects and Commercial for high demand (including great support, maintenance and customized implementation).
+#  icon: /img/guidechimp/guidechimp-icon-64x64.png

@@ -89,6 +89,40 @@ image:
 <div class="row">
     <div class="col-md-12 NL_form_light NL_block">
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
+            <h2>Powerful, flexible features</h2>
+            <span>Engage better with your Users, Improve User Experience and Increase Feature and Product Adoption.</span>
+
+            <form action="https://github.com/Labs64/GuideChimp/wiki/Examples" method="GET"
+                  name="Examples" id="Examples"
+                  novalidate>
+                <button type="submit" id="guidechimp-examples" class="NL_button button_main NL_dark_btn NL_wide_btn"><i class="fa fa-eye"></i>Examples</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div style="padding:40px;">
+        {% for feature in site.data.guidechimp %}
+        <div class="col-md-3 NL_feature" id="feature-{{ feature.name | slugify }}">
+            <figure class="hover_effect">
+                <figcaption>
+                <img src="{{ feature.icon | prepend: site.baseurl | prepend: site.url }}" alt="{{ feature.name }}"/>
+                <h3>
+                {{ feature.name }}
+                </h3>
+
+                <p>{{ feature.description }}</p>
+                </figcaption>
+            </figure>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 NL_form_light NL_block">
+        <div class="col-md-8 col-md-offset-2 NL_form_light_text">
             <h2>GuideChimp loved by many</h2>
             <span>The world's smartest companies using GuideChimp open-source library to boost their user experience.</span>
 
@@ -138,6 +172,20 @@ image:
                     class: 'NL_button button_main NL_dark_btn NL_wide_btn',
                     onClick: function () {
                         window.open('https://github.com/Labs64/GuideChimp/wiki', '_blank');
+                    }
+                }
+            ]
+        },
+        {
+            element: '#guidechimp-examples',
+            title: 'GuideChimp Examples',
+            description: 'See all GuideChimp examples in action at CodePen and live Websites.',
+            buttons: [
+                {
+                    title: 'See Examples',
+                    class: 'NL_button button_main NL_dark_btn NL_wide_btn',
+                    onClick: function () {
+                        window.open('https://github.com/Labs64/GuideChimp/wiki/Examples', '_blank');
                     }
                 }
             ]
