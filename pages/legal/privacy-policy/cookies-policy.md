@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: textonly
 title: "Cookies Policy"
 description: ""
 permalink: "/legal/privacy-policy/cookies-policy/"
@@ -7,15 +7,6 @@ tags:
 - legal
 - privacy policy
 ---
-
-<div class="row NL_banner">
-    <div class="col-md-8 col-md-offset-2 NL_about">
-        <h1>{{ page.title }}</h1>
-        <span>{{ page.description }}</span>
-    </div>
-</div>
-
-<br><br>
 
 A cookie is a file that is stored on your computer when you visit a website. Most websites use them and they are generally harmless. When you revisit the website later or visit a different webpage a copy of the cookie file is sent to the website.  
 They can be used to store information and have many uses. With the most common being tracking, remembering your details or settings, and to keep you logged in to an account

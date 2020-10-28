@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: textonly
 title: "Service Level Agreement"
 description: "NetLicensing"
 permalink: "/legal/terms-of-service/netlicensing/service-level-agreement-1-0/"
@@ -7,15 +7,6 @@ tags:
 - legal
 - SLA
 ---
-
-<div class="row NL_banner">
-    <div class="col-md-8 col-md-offset-2 NL_about">
-        <h1>{{ page.title }}</h1>
-        <span>{{ page.description }}</span>
-    </div>
-</div>
-
-<br><br>
 
 This Labs64 NetLicensing Service Level Agreement (“SLA”) is a policy governing the use of NetLicensing cloud-based services (“NetLicensing Services”) under the terms of the [NetLicensing Terms of Service](/legal/terms-of-service/netlicensing/) (the “Terms of Service”) between Labs64 GmbH (“NetLicensing”, “us” or “we”) and users of NetLicensing Services (“you”). This SLA applies separately to each account using NetLicensing Services. Unless otherwise provided herein, this SLA is subject to the terms of the Terms of Service. NetLicensing reserves the right to change the terms of this SLA in accordance with the Terms of Service.
 

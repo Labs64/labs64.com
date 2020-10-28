@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: textonly
 title: "Internship in Online-Marketing (m/f)"
 description: "1-13-L64-30"
 permalink: "/career/internship-in-online-marketing-mf-113-l64-30/"
@@ -8,15 +8,6 @@ tags:
 - job
 - employment
 ---
-
-<div class="row NL_banner">
-    <div class="col-md-8 col-md-offset-2 NL_about">
-        <h1>{{ page.title }}</h1>
-        <span>{{ page.description }}</span>
-    </div>
-</div>
-
-<br><br>
 
 Labs64 GmbH is an independent, dynamic IT-Consulting company. The company develops for its customers individual technical solutions for business-critical needs with complex requirements. Highly skilled and experienced professionals with competences in modern technologies and software development processes are building small teams to accomplish the goals. We put great emphasis on appropriate personal development of our employees, that brings us all together to a success.
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: textonly
 title: "Affiliate Program Agreement"
 description: ""
 permalink: "/legal/affiliate-program-agreement/1-0/"
@@ -8,15 +8,6 @@ tags:
 - affiliate
 - partnership
 ---
-
-<div class="row NL_banner">
-    <div class="col-md-8 col-md-offset-2 NL_about">
-        <h1>{{ page.title }}</h1>
-        <span>{{ page.description }}</span>
-    </div>
-</div>
-
-<br><br>
 
 This Affiliate Agreement (“Agreement”) contains the complete terms and conditions between us, **Labs64 NetLicensing (“NetLicensing”)** and you, regarding your application to and participation in, the NetLicensing Affiliate Program (the “Affiliate Program”) as an affiliate of NetLicensing (an “Affiliate”), and the establishment of Affiliate Links from your website, or other means, to our website to netlicensing.io for the purpose of you earning Referral Fees from Qualifying Purchases made by third parties who have navigated to netlicensing.io via said Affiliate Links.
 

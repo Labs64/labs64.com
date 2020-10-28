@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: textonly
 title: "Imprint"
 description: "Labs64 - Innovations Delivered"
 permalink: "/imprint/"
@@ -8,15 +8,6 @@ tags:
 - imprint
 - impressum
 ---
-
-<div class="row NL_banner">
-    <div class="col-md-8 col-md-offset-2 NL_about">
-        <h1>{{ page.title }}</h1>
-        <span>{{ page.description }}</span>
-    </div>
-</div>
-
-<br><br>
 
 Diese Website wird betrieben von der
 

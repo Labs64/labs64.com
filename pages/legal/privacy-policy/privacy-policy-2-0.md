@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: textonly
 title: "Privacy Policy"
 description: ""
 permalink: "/legal/privacy-policy/2-0/"
@@ -7,15 +7,6 @@ tags:
 - legal
 - privacy policy
 ---
-
-<div class="row NL_banner">
-    <div class="col-md-8 col-md-offset-2 NL_about">
-        <h1>{{ page.title }}</h1>
-        <span>{{ page.description }}</span>
-    </div>
-</div>
-
-<br><br>
 
 Your privacy is important to Labs64. So we’ve developed a Privacy Policy that covers how we collect, use, disclose, transfer, and store your information. Please take a moment to familiarize yourself with our privacy practices and let us know if you have any questions.
 

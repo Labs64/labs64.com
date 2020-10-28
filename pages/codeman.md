@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: textonly
 title: "QR Codes"
 description: "Labs64 - Innovations Delivered"
 permalink: "/codeman/"
@@ -8,15 +8,6 @@ tags:
 - QR
 - QRCode
 ---
-
-<div class="row NL_banner">
-    <div class="col-md-8 col-md-offset-2 NL_about">
-        <h1>{{ page.title }}</h1>
-        <span>{{ page.description }}</span>
-    </div>
-</div>
-
-<br><br>
 
 ![QR Code](/img/1_think_all.png "QR Code - Think"){:class="blog-center"}
 
