@@ -8,6 +8,49 @@ tags:
 - privacy policy
 ---
 
+<button id="TLDR" type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn" style="margin-left: 0em;">TL;DR</button>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.css"/>
+<script>
+    var tourTLDR = [
+        {
+            title: 'TL;DR',
+            description: '<strong>TL;DR</strong> is internet slang for <i>“too long, didn’t read”</i> – a totally reasonable reaction to privacy policies.<br>We have tried to make this tour as clear and concise as possible. This is not intended as a legal document or contract, but a plain English explanation of how we handle and protect your data. If you have any questions or want clarification about anything, please contact us.<br>For more details, read on.'
+        },
+        {
+            element: '[id="3-cookies"]',
+            title: 'Cookies',
+            description: 'We do use cookies and IP tracking to help us run our business.'
+        },
+        {
+            element: '[id="4-collection-of-general-data-and-information"]',
+            title: 'Data Collection',
+            description: 'We do collect some data automatically as you browse our website or using service. But generally speaking, we only use this data to maintain our services, and we purge data when we no longer need it.'
+        },
+        {
+            element: '[id="10-routine-erasure-and-blocking-of-personal-data"]',
+            title: 'GDPR',
+            description: 'You have a right to be deleted and right to opt out of tracking altogether if you choose.'
+        },
+        {
+            element: '[id="13-data-protection-provisions-about-the-application-and-use-of-addthis"]',
+            title: 'Third-party Services',
+            description: 'We do advertise on online ad networks such as Google AdWords, Microsoft Bing, and Facebook, and we use their tracking "pixels" on our website. These pixels may track your activity (pages you havve visited, links you clicked, etc.) as you browse our site and other sites, which is primarily used to personalize ads to you on those networks. If you are uncomfortable being tracked like this, there are many ways to opt-out of it, which we have detailed below under Online Advertising. Opting out is a personal choice and, in most cases, does not affect your ability to browse our site or buy our products.'
+        },
+        {
+            element: '[id="32-accuracy-and-retention-of-data"]',
+            title: 'Trust',
+            description: 'We will never sell or abuse your personal data; we believe doing so is fundamentally wrong.'
+        }
+    ];
+    var guideChimp = GuideChimp(tourTLDR, {
+        position: 'top'
+    });
+    document.querySelector('#TLDR').onclick = function () {
+        guideChimp.start();
+    };
+</script>
+
 We are very delighted that you have shown interest in our enterprise. Data protection is of a particularly high priority for the management of Labs64 GmbH. The use of the Internet pages of Labs64 GmbH is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.
 
 The processing of personal data, such as the name, address, e-mail address, or telephone number of a data subject shall always be in line with the General Data Protection Regulation (GDPR), and in accordance with the country-specific data protection regulations applicable to Labs64 GmbH. By means of this data protection declaration, our enterprise would like to inform the general public of the nature, scope, and purpose of the personal data we collect, use and process. Furthermore, data subjects are informed, by means of this data protection declaration, of the rights to which they are entitled.
