@@ -30,12 +30,21 @@ tags:
         {
             element: '[id="10-routine-erasure-and-blocking-of-personal-data"]',
             title: 'GDPR',
-            description: 'You have a right to be deleted and right to opt-out of tracking altogether if you choose.'
+            description: 'You have a right to be deleted and right to opt-out of tracking altogether if you choose.',
+            buttons: [
+                {
+                    title: 'Visit Privacy Center',
+                    class: 'tour-button',
+                    onClick: function () {
+                        window.open("https://netlicensing.io/wiki/privacy-center", "_blank")
+                    }
+                }
+            ]
         },
         {
             element: '[id="13-data-protection-provisions-about-the-application-and-use-of-addthis"]',
             title: 'Third-party Services',
-            description: 'We do advertise on online ad networks such as Google AdWords, Microsoft Bing, Facebook, as well as using other third-party services to improve our offering. We use their tracking methods (such as "pixels" on our websites). These tools and methods may track your activity (pages you have visited, links you clicked, etc.) as you using our services. If you are uncomfortable being tracked like this, there are many ways to opt-out of it, which we have detailed in our Privacy Center. Opting out is a personal choice and, in most cases, does not affect your ability to use our services.'
+            description: 'We do advertise on online ad networks such as Google AdWords, Microsoft Bing, Facebook, as well as using other third-party services to improve our offering. We use their tracking methods (such as "pixels" on our websites). These tools and methods may track your activity (pages you have visited, links you clicked, etc.) as you using our services. If you are uncomfortable being tracked like this, there are many ways to opt-out of it, which we have detailed in our <a href="https://netlicensing.io/wiki/privacy-center" target="_blank">Privacy Center</a>. Opting out is a personal choice and, in most cases, does not affect your ability to use our services.'
         },
         {
             element: '[id="32-accuracy-and-retention-of-data"]',
