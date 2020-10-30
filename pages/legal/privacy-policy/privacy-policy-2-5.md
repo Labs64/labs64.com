@@ -53,7 +53,8 @@ tags:
         }
     ];
     var guideChimp = GuideChimp(tourTLDR, {
-        position: 'top'
+        position: 'top',
+        scrollPadding: 50
     });
     document.querySelector('#TLDR').onclick = function () {
         guideChimp.start();
