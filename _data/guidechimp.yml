@@ -11,7 +11,7 @@
   icon: /img/guidechimp/guidechimp-icon-64x64.png
 
 - name: GuideChimp Chrome Extension
-  description: Start guided tour on any website with <a href='' target='_blank'>GuideChimp Chrome Extension</a> and ZERO! code.
+  description: Start guided tour on any website with <a href='https://chrome.google.com/webstore/detail/guidechimp-chrome-extensi/afecedbgkfoijeligfjflidfddndnjng' target='_blank'>GuideChimp Chrome Extension</a> and ZERO! code.
   icon: /img/guidechimp/guidechimp-icon-chrome-64x64.png
 
 - name: Great Tools Support
