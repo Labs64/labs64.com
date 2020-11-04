@@ -199,7 +199,7 @@ image:
                     title: 'Install Chrome Extension',
                     class: 'NL_button button_main NL_dark_btn NL_wide_btn',
                     onClick: function () {
-                        window.open('https://www.labs64.com/guidechimp/', '_blank');
+                        window.open('https://chrome.google.com/webstore/detail/guidechimp-chrome-extensi/afecedbgkfoijeligfjflidfddndnjng', '_blank');
                     }
                 }
             ]
