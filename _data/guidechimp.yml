@@ -10,6 +10,10 @@
   description: Let GuideChimp look like an integral part of your software product by configuring its look & feel.
   icon: /img/guidechimp/guidechimp-icon-64x64.png
 
+- name: GuideChimp Chrome Extension
+  description: Start guided tour on any website with <a href='' target='_blank'>GuideChimp Chrome Extension</a> and ZERO! code.
+  icon: /img/guidechimp/guidechimp-icon-chrome-64x64.png
+
 - name: Great Tools Support
   description: GuideChimp works well with tools you already use (e.g. WordPress, Confluence, etc.).
   icon: /img/guidechimp/guidechimp-icon-64x64.png
@@ -70,9 +74,9 @@
   description: HTML code snippets can be also used in the tooltip text.
   icon: /img/guidechimp/guidechimp-icon-64x64.png
 
-- name: Large Tooltips
-  description: Support of extra-large tooltip description texts.
-  icon: /img/guidechimp/guidechimp-icon-64x64.png
+#- name: Large Tooltips
+#  description: Support of extra-large tooltip description texts.
+#  icon: /img/guidechimp/guidechimp-icon-64x64.png
 
 - name: Callbacks
   description: Set callback ('onBeforeChange', 'onAfterChange', etc.) listener functions for each step or event in the tour.
