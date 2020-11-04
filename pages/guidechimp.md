@@ -191,6 +191,20 @@ image:
             ]
         },
         {
+            element: '#feature-guidechimp-chrome-extension',
+            title: 'GuideChimp Chrome Extension',
+            description: 'Start guided tour on any website with GuideChimp Chrome Extension and ZERO! code.',
+            buttons: [
+                {
+                    title: 'Install Chrome Extension',
+                    class: 'NL_button button_main NL_dark_btn NL_wide_btn',
+                    onClick: function () {
+                        window.open('https://www.labs64.com/guidechimp/', '_blank');
+                    }
+                }
+            ]
+        },
+        {
             element: '#guidechimp-github',
             title: 'GuideChimp is Open Source',
             description: 'If you like GuideChimp, give us a star on GitHub ⭐',
