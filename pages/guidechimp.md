@@ -101,7 +101,7 @@ image:
     </div>
 </div>
 
-<div class="row">
+<div id="features" class="row">
     <div style="padding:40px;">
         {% for feature in site.data.guidechimp %}
         <div class="col-md-3 NL_feature" id="feature-{{ feature.name | slugify }}">
