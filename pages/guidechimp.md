@@ -149,6 +149,13 @@ image:
     {% include pricing-table-guidechimp.html %}
 </div>
 
+<div class="row NL_block">
+    <p class="col-md-8 col-md-offset-2">1) ...
+    <br>2) ...
+    <br>3) ...
+    </p>
+</div>
+
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/plugins/beacons.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.css"/>
