@@ -150,9 +150,9 @@ image:
 </div>
 
 <div class="row NL_block">
-    <p class="col-md-8 col-md-offset-2">1) ...
-    <br>2) ...
-    <br>3) ...
+    <p class="col-md-8 col-md-offset-2">1) Available under the European Union Public License.
+    <br>2) Open source and community [plugins](https://github.com/Labs64/GuideChimp/wiki/Plugins) only.
+    <br>3) Any library or plugin customizations need to be made public available through the GitHub Pull Request.
     </p>
 </div>
 
