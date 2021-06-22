@@ -13,4 +13,4 @@ tags:
     </div>
 </div>
 
-{% include contact-crm.html %}
+{% include contact.html %}
