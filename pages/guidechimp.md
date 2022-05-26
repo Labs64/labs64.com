@@ -156,10 +156,10 @@ image:
     </p>
 </div>
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/plugins/beacons.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.css"/>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/plugins/beacons.min.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/guidechimp@4/dist/guidechimp.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/guidechimp@4/dist/plugins/beacons.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/guidechimp@4/dist/guidechimp.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/guidechimp@4/dist/plugins/beacons.min.css">
 
 <script>
     GuideChimp.extend(guideChimpPluginBeacons);

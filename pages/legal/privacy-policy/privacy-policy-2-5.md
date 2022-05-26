@@ -9,8 +9,8 @@ tags:
 ---
 
 <button id="TLDR" type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn" style="margin-left: 0em;">TL;DR</button>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.css"/>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/guidechimp@4/dist/guidechimp.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/guidechimp@4/dist/guidechimp.min.css"/>
 <script>
     var tourTLDR = [
         {
