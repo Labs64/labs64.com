@@ -5,6 +5,7 @@ sitemap:
   exclude: true
 ---
 <html>
+{% if site.google_analytics_tracking_id %}
 <head>
     <script type="text/javascript">
         var _gaq = _gaq || [];
@@ -24,4 +25,5 @@ sitemap:
 <h1>Google Analytics cookie has been created!</h1>
 <h4><a href="/">Back to website</a></h4>
 </body>
+{% endif %}
 </html>
