@@ -30,8 +30,8 @@ topnav_sticker_onclick: ""
 topnav_sticker_target: "_self"
 
 # SEO
-#google_analytics_tracking_id: "UA-32654174-1"
-google_analytics_tracking_id:
+google_analytics_tracking_id: "UA-32654174-1"
+#google_analytics_tracking_id:
 #yandex_metrika_tracking_id: "61860391"
 yandex_metrika_tracking_id:
 
