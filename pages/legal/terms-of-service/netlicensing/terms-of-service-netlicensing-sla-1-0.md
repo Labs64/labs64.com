@@ -34,7 +34,7 @@ We will apply any Service Credits only against future NetLicensing payments othe
 
 ### 4\. Credit Request and Payment Procedures
 
-To receive a Service Credit, you must submit a claim by sending an email to support@NetLicensing.com. To be eligible, the credit request must be received by us by the end of the second billing cycle after which the incident occurred and must include:
+To receive a Service Credit, you must submit a claim by sending an email to info@netlicensing.io. To be eligible, the credit request must be received by us by the end of the second billing cycle after which the incident occurred and must include:
 
 *   the words “SLA Credit Request” in the subject line
 *   the dates and times of each Unavailability incident that you are claiming
