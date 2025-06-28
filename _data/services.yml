@@ -12,6 +12,10 @@
   section: "Company"
 
 # Learn
+- title: Labs64.IO Ecosystem
+  url: "https://labs64.io"
+  section: "Documentation"
+
 - title: NetLicensing
   url: "https://netlicensing.io"
   section: "Documentation"
