@@ -6,3 +6,4 @@ _site/
 *.iml
 Gemfile.lock
 .DS_Store
+.impeccable/

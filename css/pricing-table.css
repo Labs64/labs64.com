@@ -113,7 +113,7 @@
 }
 
 .nlic-plan-column .nlic-plan-price {
-    color: #853E29 !important;
+    color: #7B2A10 !important;
     background-color: #F9F9F9;
 }
 
@@ -161,8 +161,8 @@
     line-height: 2px;
     margin-top: 8px;
     margin-bottom: 0px;
-    border: 1px solid #853E29;
-    color: #853E29 !important;
+    border: 1px solid #7B2A10;
+    color: #7B2A10 !important;
     -webkit-backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
     margin-right: 15px;
@@ -170,13 +170,13 @@
 }
 
 .nlic-action a::before {
-    background: #853E29;
+    background: #7B2A10;
 }
 
 .nlic-action a:hover {
     color: #fff !important;
     text-decoration: none;
-    border-color: #853E29;
+    border-color: #7B2A10;
 }
 
 .nlic-action a::before {
@@ -218,9 +218,9 @@
 /* Custom styles */
 
 .nlic-column-PLAN-COMMERCIAL .nlic-column-head {
-    background-color: #853E29;
+    background-color: #7B2A10;
 }
 
 .nlic-column-PLAN-COMMERCIAL .nlic-plan-column {
-    border: 1px solid #853E29;
+    border: 1px solid #7B2A10;
 }
